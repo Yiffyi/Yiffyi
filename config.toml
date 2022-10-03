@@ -1,0 +1,48 @@
+baseURL = 'https://yif.fyi'
+languageCode = 'zh-Hans'
+theme = 'hugo-theme-stack'
+title = 'My New Hugo Site'
+
+DefaultContentLanguage = 'zh-cn'
+hasCJKLanguage = true
+
+[params.footer]
+since = 2022
+
+[params.sidebar]
+emoji = '🍥'
+
+[params.widgets]
+homepage = [
+    { type = 'search' },
+    { type = 'archives', params = { limit = 5 } },
+    { type = 'categories', params = { limit = 10 } },
+    { type = 'tag-cloud', params = { limit = 10 } }
+]
+page = [
+    { type = 'toc' }
+]
+
+[params.article]
+toc = true
+
+[params.comments]
+enabled = true
+provider = 'giscus'
+
+[params.comments.giscus]
+repo = 'Yiffyi/Yiffyi'
+repoID = 'R_kgDOIHqTEA'
+category = 'Comments'
+categoryID = 'DIC_kwDOIHqTEM4CRxDa'
+mapping = 'pathname'
+strict = 1
+reactionsEnabled = 1
+emitMetadata = 0
+darkTheme = 'dark_dimmed'
+inputPosition = 'top'
+lang = 'zh-CN'
+
+[params.colorScheme]
+toggle = false
+default = 'dark'
