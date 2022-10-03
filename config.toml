@@ -1,7 +1,7 @@
 baseURL = 'https://yif.fyi'
 languageCode = 'zh-Hans'
 theme = 'hugo-theme-stack'
-title = 'My New Hugo Site'
+title = 'Cyberspace of Yiffyi'
 
 DefaultContentLanguage = 'zh-cn'
 hasCJKLanguage = true
@@ -10,7 +10,7 @@ hasCJKLanguage = true
 since = 2022
 
 [params.sidebar]
-emoji = '🍥'
+emoji = '😶‍🌫️'
 
 [params.widgets]
 homepage = [
