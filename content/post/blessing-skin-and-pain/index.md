@@ -66,6 +66,7 @@ RUN apt-get update; apt-get install -y --no-install-recommends libfreetype6-dev 
 
 ## 邮箱发信配置
 在官方文档中没有提到。可以去修改 `.env` 文件。
+
 这里提一下 `MAIL_ENCRYPTION` 选项。注意，如果你的邮箱提到了 `STARTTLS` 这个单词，请按如下配置。
 
 [Swift Mailer 文档](https://swiftmailer.symfony.com/docs/sending.html#encrypted-smtp)
