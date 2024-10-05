@@ -1,10 +1,16 @@
 baseURL = 'https://yif.fyi'
 languageCode = 'zh-Hans'
-theme = 'hugo-theme-stack'
 title = 'Cyberspace of Yiffyi'
 
 DefaultContentLanguage = 'zh-cn'
 hasCJKLanguage = true
+
+[module]
+  [[module.imports]]
+    path = 'github.com/CaiJimmy/hugo-theme-stack/v3'
+
+[build]
+  noJSConfigInAssets = true
 
 [params.footer]
 since = 2022
