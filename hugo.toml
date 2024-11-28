@@ -1,6 +1,7 @@
 baseURL = 'https://yif.fyi'
 languageCode = 'zh-Hans'
 title = 'Cyberspace of Yiffyi'
+copyright = 'Yiffyi'
 
 DefaultContentLanguage = 'zh-cn'
 hasCJKLanguage = true
@@ -48,6 +49,7 @@ page = [{ type = 'toc' }]
 
 [params.article]
 toc = true
+license = { enabled = true, default = 'Licensed under CC BY 4.0' }
 
 [params.comments]
 enabled = true
